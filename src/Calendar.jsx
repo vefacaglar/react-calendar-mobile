@@ -469,7 +469,7 @@ Calendar.defaultProps = {
   onSelectDate: (value) => {
   },
   view: 'month',
-  i18n: 'en-US',
+  i18n: 'tr-TR',
   weekdayFormat: 'narrow',
   monthFormat: 'long',
   yearFormat: 'numeric',
