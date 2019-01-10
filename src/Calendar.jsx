@@ -1,11 +1,11 @@
-import React, { Component, PropTypes } from 'react';
+import React, { Component } from 'react';
 import classnames from 'classnames';
 import { ITEM_HEIGHT, WEEKDAYS_HEIGHT } from './util/constant';
 import { getWeekNumber, getWeekLocale, getMonthLocale, getYearLocale, getDaysCountOfMonth } from './util/utils';
 import draggable from './util/draggable';
 import translateUtil from './util/translate';
 import './Calendar.css';
-
+import PropTypes from 'prop-types';
 
 class Calendar extends Component {
   constructor(props) {
